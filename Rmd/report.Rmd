@@ -1,0 +1,17 @@
+---
+title: "report"
+author: "Zhihao Jin"
+date: "11/7/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+here::i_am("Rmd/report.Rmd")
+```
+
+Here's my picture:
+
+The figure shows a large missing part both spatially and temporally because the satellite observation is based on the sunlight.It can be interfered by the image angels, weather, cloud, and time.
+
+![A GIF animation of the GOES-16 hourly AOD on day 1](../Output/figure/aod_figure.png)
