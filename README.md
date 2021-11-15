@@ -1,8 +1,8 @@
 ## info550 Zhihao Jin's Project
-# AIM
+### AIM
 For my project, it aims check the distribution of average AOD on 2018-01-01 based on GOES16 aerosol optical depth (AOD) observations in the north-east area of the US.
 
-To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands.
+### To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands.
 
 ``` r
 installed_pkgs <- row.names(installed.packages())
@@ -14,7 +14,7 @@ for(p in pkgs){
 	}
 }
 ```
-or you can use the "renv" package:
+### or you can use the "renv" package:
 
 ``` r
 renv::init()
