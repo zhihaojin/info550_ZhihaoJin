@@ -2,8 +2,7 @@
 ### AIM
 For my project, it aims check the distribution of average AOD on 2018-01-01 based on GOES16 aerosol optical depth (AOD) observations in the north-east area of the US.
 
-<<<<<<< HEAD
-Briefly introduction of project structrue: 
+### Briefly introduction of project structrue: 
   * `data` folder contains all of raw GOES data.
   * `Rcode` folder contains R codes.
   * `Rmd` folder contains Rmd codes.
