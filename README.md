@@ -15,8 +15,6 @@ For my project, it aims check the distribution of average AOD on 2018-01-01 base
 To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands or just type 'make install' in your console.
 =======
 ### To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands.
->>>>>>> 37648b556b52729dbbf11fac005badded48b6840
-
 ``` r
 installed_pkgs <- row.names(installed.packages())
 pkgs <- c("lubridate", "reshape2", "ggplot2")
