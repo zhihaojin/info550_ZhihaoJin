@@ -1,7 +1,9 @@
 ## info550 Zhihao Jin's Project
 
+### AIM
 For my project, it aims check the distribution of average AOD on 2018-01-01 based on GOES16 aerosol optical depth (AOD) observations in the north-east area of the US.
 
+<<<<<<< HEAD
 Briefly introduction of project structrue: 
   * `data` folder contains all of raw GOES data.
   * `Rcode` folder contains R codes.
@@ -14,6 +16,8 @@ Briefly introduction of project structrue:
 
 To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands or just type 'make install' in your console.
 
+### To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands.
+
 ``` r
 installed_pkgs <- row.names(installed.packages())
 pkgs <- c("lubridate", "reshape2", "ggplot2")
@@ -23,6 +27,11 @@ for(p in pkgs){
 		install.packages(p)
 	}
 }
+```
+### or you can use the "renv" package:
+
+``` r
+renv::init()
 ```
 
 ## Exeute the analysis using makefile
