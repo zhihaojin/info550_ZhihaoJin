@@ -11,7 +11,6 @@ For my project, it aims check the distribution of average AOD on 2018-01-01 base
   * `renv.lock` can be used to initiate your r environment.
   * `makefile` contains all rules for project.
   * `Dockerfile` is used to build the Docker image.
-
 To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands or just type 'make install' in your console.
 =======
 ### To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands.
