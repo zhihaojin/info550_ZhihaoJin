@@ -63,7 +63,11 @@ docker pull zhihaojin/info_550
 ```bash
 docker build -t ${image_name} .
 ```
-3. If you want to interactively export the report with the image:
+3. To see the output you will need to mount the directory to a local folder on your device. You must change the path to a folder on your device!!!
+```
+docker run -v /path/to/project/R:/info_550/Rmd -it zhihaojin/info_550
+```
+4. If you want to interactively export the report with the image:
 ```bash
 docker run -it ${image_name} /bin/bash
 cd project
