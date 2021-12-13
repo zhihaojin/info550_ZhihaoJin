@@ -1,7 +1,7 @@
-FROM rocker/tidyverse
+FROM rocker/tidyverse:3.6.3
 
 # install R packages
-RUN Rscript -e "install.packages(c('lubridate','reshape2','ggplot2'))"
+RUN Rscript -e "install.packages(c('lubridate','reshape2','ggplot2','renv','rmarkdown','here'))"
 
 # make project directory in the container
 RUN mkdir /project
@@ -14,4 +14,4 @@ RUN chmod +x /project/Rcode/*.R
 RUN chmod +x /project/Rmd/*.Rmd
 
 # make container entry point that makes the report
-CMD make -C project Rmd/report.html
+CMD make -C project report.html
