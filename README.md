@@ -74,4 +74,4 @@ cd project
 make install
 make report.html
 ```
-
+The output is the Report.html file under the Rmd folder.
